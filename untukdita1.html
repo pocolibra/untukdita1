@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <title>Untuk Dita</title>
+</head>
+<body>
+    
+    <div class="container">
+        <img src="https://i.pinimg.com/originals/d4/87/a9/d487a9c7609862e0d62bd2648f50544f.gif">
+        <h1>Hai Dita</h1>
+        <button onclick="mulai(), play()"> Klik Disini</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+    <script>
+        function play() {
+//Link Audio Bisa Diganti
+            var audio = new Audio('https://www.mboxdrive.com/audio.mp3');audio.play();} 
+
+        const swals = Swal.mixin({
+
+        });
+        async function mulai(){
+            await swals.fire('Lihat sampai habis ya ツ')
+
+            await swals.fire({
+            title: 'Lagi ngapain?',
+            text: 'Pasti capek yaaa, tadi kerja',
+            imageUrl: 'https://i.pinimg.com/originals/07/20/76/07207641f012e36902b38e1113bb89b2.gif',
+            imageWidth: 200,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+            })
+
+            await swals.fire({
+            title: 'Udah makan?',
+            text: 'Makan yang banyak yaaa!, biar gemoy',
+            imageUrl: 'https://i.pinimg.com/originals/30/d7/16/30d71676e7ba99508c5948800067c5c6.gif',
+            imageWidth: 200,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+            })
+
+            await swals.fire({
+            title: '',
+            text: 'Kalau ga makan aku marah lo',
+            imageUrl: 'https://i.pinimg.com/originals/96/2b/b1/962bb1d6964ebe337a9b1acde4ba577b.gif',
+            imageWidth: 200,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+            })
+
+            await swals.fire({
+            title: '',
+            text: 'jangan lupa minum yang banyak yaaa!',
+            imageUrl: 'https://i.pinimg.com/originals/94/be/a1/94bea1e838b7b4b012ba6c5e16e6639e.gif',
+            imageWidth: 200,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+            })
+
+            await swals.fire({
+            title: 'katane tadi pulang kan?',
+            text: 'Hati-hati dijalan yaaa. Jangan lupa berdoa',
+            imageUrl: 'https://i.pinimg.com/originals/13/31/cb/1331cb2f5571d66225fd1e404f554415.gif',
+            imageWidth: 200,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+            })
+
+            await swals.fire({
+            title:'Habis itu istirahat yaaa!',
+            text: 'Jangan begadang, nanti sakit',
+            imageUrl: 'https://i.pinimg.com/originals/e4/63/32/e463325c5f18caa80acd50a2ea5b582d.gif',
+            imageWidth: 200,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+            })
+
+            await swals.fire({
+            title:'Jaga kesehatan',
+            text: 'Kalau kamu sakit aku sedih',
+            imageUrl: 'https://i.pinimg.com/originals/cf/61/11/cf611119ee21c356ceb5aac4e1fdbb7e.gif',
+            imageWidth: 200,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+            })
+
+            await swals.fire({
+            title:'luv u Dita',
+            text: '',
+            imageUrl: 'https://i.pinimg.com/originals/97/12/36/971236164f1933e9ed5049e4f089121d.gif',
+            imageWidth: 200,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+            })
+
+            await swals.fire({
+            title:'Duh... aku salting',
+            text: '',
+            imageUrl: 'https://i.pinimg.com/originals/c4/79/76/c479761241383a2465655fc7d944f075.gif',
+            imageWidth: 200,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+            })
+
+            await swals.fire({
+            title:'bye',
+            text: 'hati-hati di jalan',
+            imageUrl: 'https://i.pinimg.com/originals/93/e2/22/93e2227a5d8551b492d688ccc6e7cd5b.gif',
+            imageWidth: 200,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+            })
+        }
+    </script>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .container{
+            text-align: center;
+            margin-top: 20vh;
+        }
+        h1{
+            color: #442626;
+        }
+        button{
+            padding: 5px 10px;
+            font-size: 18px;
+            background: #fa807b;
+            color: #ffff;
+            border-radius: 5px;
+        }
+    </style>
+
+</body>
+</html>
